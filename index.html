@@ -4,11 +4,24 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>self-recommend展</title>
+
+        <script>
+            var imgArray = new Array();
+            imgArray[0] = "./images/bg.png";
+            imgArray[1] = "./images/bg2.png";
+            
+            function showImage(){
+                var imgNum = Math.round(Math.random());
+                var objImg = document.getElementById("mirror_img");
+                objImg.src = imgArray[imgNum];
+            }
+        </script>
+
     </head>
 
-    <body>
+    <body onload="showImage()">
         <div class="exhibition_img">
-            <img src="./images/bg.png" class="fixed">
+            <img id="mirror_img" class="fixed">
         </div>
 
         <div id="exhibition_date" class="vertical-text-right">
