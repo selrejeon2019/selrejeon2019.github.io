@@ -9,7 +9,6 @@ permalink: /self/kang
 강민정
 홍익대학교 미술대학 회화과
 
-## 출품작
 ### 상냥한 폭력들
 > 상냥한 폭력들, oil on canvas
 
