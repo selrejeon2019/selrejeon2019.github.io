@@ -13,3 +13,4 @@ permalink: /self/
 ## 작가별 자기추천서
 - [강민정](/self/kang)
 - [김다흰](/self/kimd)
+- 추가중...
