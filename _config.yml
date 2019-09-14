@@ -27,7 +27,7 @@ navigation:
   - name: 타인추천
     url: https://selrejeon2019.herokuapp.com/
   - name: 공지사항
-    url: /index2.html
+    url: /notice
 
 # Pagination
 paginate: 5
