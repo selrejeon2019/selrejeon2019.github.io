@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 자기추천서 - 강민정
-permalink: /self/kang.md
+permalink: /self/kimd
 ---
 
 

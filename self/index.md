@@ -11,5 +11,5 @@ permalink: /self/
 이지현 이효선 장유리 제갈상정 종조룡 허가은 등 홍익대학교 미술대학 재학생 18명
 
 ## 작가별 자기추천서
-- [강민정](/self/kang.md)
-- [김다흰](/self/kimd.md)
+- [강민정](/self/kang)
+- [김다흰](/self/kimd)
