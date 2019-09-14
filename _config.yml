@@ -20,7 +20,7 @@ avatar: # https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: self-recommend展
+  - name: 전시소개
     url: /about
   - name: 자기추천
     url: /self
