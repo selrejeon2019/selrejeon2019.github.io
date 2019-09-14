@@ -1,0 +1,145 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+/*  No media query for `xs` since this is the default in Bootstrap */
+
+body {
+    background: linear-gradient( to bottom, black 85%, white 100%);
+    color: white;
+}
+
+.container {
+    font-family: 'Noto Serif KR', serif;
+    max-width: 400px;
+    padding-top: 150px;
+    padding-bottom: 400px;
+}
+
+img.fixed { 
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* IE8 및 그 이하 버전용 */
+    z-index: -1;
+}
+
+.vertical-text-left {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.vertical-text-right {
+    visibility: hidden;
+}
+
+
+#exhibition_people {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#exhibition_text_header {
+    padding-top: 0px;
+}
+#exhibition_text {
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 2.5em;
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+        font-family: 'Noto Serif KR', serif;
+        max-width: 400px;
+        padding-top: 150px;
+        padding-bottom: 400px;
+    }
+    #exhibition_text_header {
+        padding-top: 0px;
+    }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        font-family: 'Noto Serif KR', serif;
+        max-width: 400px;
+        padding-top: 300px;
+        padding-bottom: 400px;
+    }
+    .vertical-text-left {
+        position: fixed;
+        left: 2em;
+        transform: rotate(270deg);
+        transform-origin: right bottom;
+        float: left;
+        visibility: visible;
+    }
+    .vertical-text-right {
+        position: fixed;
+        left: 50%;
+        transform: rotate(270deg);
+        transform-origin: right bottom;
+        float: left;
+        visibility: visible;
+    }
+    #exhibition_text_header {
+        padding-top: 150px;
+    }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        font-family: 'Noto Serif KR', serif;
+        max-width: 400px;
+        padding-top: 300px;
+        padding-bottom: 400px;
+    }
+    .vertical-text-left {
+        position: fixed;
+        left: 5em;
+        transform: rotate(270deg);
+        transform-origin: right bottom;
+        float: left;
+        visibility: visible;
+    }
+    .vertical-text-right {
+        position: fixed;
+        left: 50%;
+        transform: rotate(270deg);
+        transform-origin: right bottom;
+        float: left;
+        visibility: visible;
+    }
+    #exhibition_text_header {
+        padding-top: 150px;
+    }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 380px;
+        padding-top: 200px;
+        padding-bottom: 400px;
+    }
+    .vertical-text-left {
+        position: fixed;
+        left: 13em;
+        transform: rotate(270deg);
+        transform-origin: right bottom;
+        float: left;
+        visibility: visible;
+    }
+    .vertical-text-right {
+        position: fixed;
+        left: 50%;
+        transform: rotate(270deg);
+        transform-origin: right bottom;
+        float: left;
+        visibility: visible;
+    }
+    #exhibition_text_header {
+        padding-top: 150px;
+    }
+}

@@ -13,23 +13,21 @@ description: Web Developer from Somewhere
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: # https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Blog
-    url: /
-  - name: About
+  - name: self-recommend展
     url: /about
-  - name: Archive
-    url: /archive
-  - name: Tags
-    url: /tags
-  - name: Theme
-    url: https://github.com/AWEEKJ/kiko-now
+  - name: 자기추천 (작가소개)
+    url: /self
+  - name: 타인추천
+    url: https://selrejeon2019.herokuapp.com/
+  - name: 공지사항
+    url: /index2.html
 
 # Pagination
 paginate: 5
@@ -39,9 +37,9 @@ footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
   email:
-  facebook:
+  facebook: https://www.facebook.com/art.of.hongik/
   flickr:
-  github: AWEEKJ/kiko-now
+  github: # AWEEKJ/kiko-now
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -49,11 +47,11 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: jekyllrb
+  twitter: # jekyllrb
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © 2019 홍익대학교 미술대학 학생회 Co-Core ☯️
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
