@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kiko Now
+name: 2019 홍익미대 예술제 기획전시 - self-recommend展
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: 셀레전 홈페이지
 
 #
 # Flags below are optional
@@ -22,7 +22,7 @@ avatar: # https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/
 navigation:
   - name: self-recommend展
     url: /about
-  - name: 자기추천 (작가소개)
+  - name: 자기추천
     url: /self
   - name: 타인추천
     url: https://selrejeon2019.herokuapp.com/
