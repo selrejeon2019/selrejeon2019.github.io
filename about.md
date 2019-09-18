@@ -4,6 +4,7 @@ title: 전시 소개
 permalink: /about/
 ---
 
+![전시 포스터 이미지](/images/poster1366.jpg “전시 포스터 이미지") 
 
 ## self-recommend展
 
