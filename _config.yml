@@ -24,8 +24,10 @@ navigation:
     url: /about
   - name: 자기추천
     url: /self
+#  - name: 타인추천
+#    url: https://selrejeon2019.herokuapp.com/
   - name: 타인추천
-    url: https://selrejeon2019.herokuapp.com/
+    url: /
   - name: 공지사항
     url: /notice
 
