@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 타인추천 접근 제한
+title: 타인추천
 permalink: /tain/
 ---
 
